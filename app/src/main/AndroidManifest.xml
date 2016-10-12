@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".FlexibleSpaceExampleActivity">
         </activity>
+        <activity android:name=".SwipeBehaviorExampleActivity">
+        </activity>
     </application>
 
 </manifest>

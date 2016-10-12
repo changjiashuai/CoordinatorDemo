@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_ioexample_textview -> navigate<CollapsingToolbarExampleActivity>()
             R.id.main_materialup_textview -> ""
             R.id.main_space_textview -> navigate<FlexibleSpaceExampleActivity>()
-            R.id.main_swipebehavior_textview -> ""
+            R.id.main_swipebehavior_textview -> navigate<SwipeBehaviorExampleActivity>()
             else -> ""
         }
     }
