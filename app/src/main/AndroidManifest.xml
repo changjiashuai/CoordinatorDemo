@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".CollapsingToolbarExampleActivity">
         </activity>
+        <activity android:name=".FlexibleSpaceExampleActivity">
+        </activity>
     </application>
 
 </manifest>
