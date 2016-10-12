@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v?.id){
-            R.id.main_coordinator_textview -> SimpleCoordinatorActivity.start(this)
-            R.id.main_ioexample_textview -> ""
+            R.id.main_coordinator_textview -> navigate<SimpleCoordinatorActivity>()//SimpleCoordinatorActivity.start(this)
+            R.id.main_ioexample_textview -> navigate<CollapsingToolbarExampleActivity>()
             R.id.main_space_textview -> ""
             R.id.main_materialup_textview -> ""
             R.id.main_swipebehavior_textview -> ""

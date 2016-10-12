@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".SimpleCoordinatorActivity">
         </activity>
+        <activity android:name=".CollapsingToolbarExampleActivity">
+        </activity>
     </application>
 
 </manifest>
