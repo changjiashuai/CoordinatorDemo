@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when(v?.id){
             R.id.main_coordinator_textview -> navigate<SimpleCoordinatorActivity>()//SimpleCoordinatorActivity.start(this)
             R.id.main_ioexample_textview -> navigate<CollapsingToolbarExampleActivity>()
-            R.id.main_materialup_textview -> ""
+            R.id.main_materialup_textview -> navigate<MaterialUpConceptActivity>()
             R.id.main_space_textview -> navigate<FlexibleSpaceExampleActivity>()
             R.id.main_swipebehavior_textview -> navigate<SwipeBehaviorExampleActivity>()
-            else -> ""
+//            else -> ""
         }
     }
 
