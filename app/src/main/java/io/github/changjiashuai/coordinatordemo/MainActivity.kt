@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_materialup_textview -> navigate<MaterialUpConceptActivity>()
             R.id.main_space_textview -> navigate<FlexibleSpaceExampleActivity>()
             R.id.main_swipebehavior_textview -> navigate<SwipeBehaviorExampleActivity>()
+            R.id.main_drawerbehavior_textview -> navigate<DrawerBehaviorActivity>()
 //            else -> ""
         }
     }
@@ -36,5 +37,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         findViewById(R.id.main_ioexample_textview).setOnClickListener(this)
         findViewById(R.id.main_space_textview).setOnClickListener(this)
         findViewById(R.id.main_swipebehavior_textview).setOnClickListener(this)
+        findViewById(R.id.main_drawerbehavior_textview).setOnClickListener(this)
     }
 }

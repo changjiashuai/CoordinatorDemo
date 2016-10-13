@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".MaterialUpConceptActivity">
         </activity>
+        <activity android:name=".DrawerBehaviorActivity">
+        </activity>
     </application>
 
 </manifest>
